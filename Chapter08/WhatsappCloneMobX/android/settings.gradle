@@ -1,0 +1,3 @@
+rootProject.name = 'whatsappCloneMobX'
+
+include ':app'

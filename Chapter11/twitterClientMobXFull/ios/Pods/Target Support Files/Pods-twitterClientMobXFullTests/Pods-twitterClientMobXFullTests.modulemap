@@ -1,0 +1,6 @@
+framework module Pods_twitterClientMobXFullTests {
+  umbrella header "Pods-twitterClientMobXFullTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

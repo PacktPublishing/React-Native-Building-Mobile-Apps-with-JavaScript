@@ -1,0 +1,3 @@
+rootProject.name = 'componentPlayground'
+
+include ':app'

@@ -1,0 +1,6 @@
+framework module Pods_twitterClientMobXFull_tvOS {
+  umbrella header "Pods-twitterClientMobXFull-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'youtubeAppClone'
+
+include ':app'
