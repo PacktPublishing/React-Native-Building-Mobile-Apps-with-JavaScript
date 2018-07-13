@@ -64,7 +64,7 @@ export default class Login extends React.Component {
           <TextInput
               ref={(textInput) => this._user = textInput }
               style={styles.inputField}
-              value={this.state.text}
+              value={this.state.user}
               onChangeText={(user) => this.setState({user})}
               onSubmitEditing={(event) => this._password.focus()}
               onFocus={() => this.clearValidationErrors() }
@@ -76,7 +76,7 @@ export default class Login extends React.Component {
             <TextInput
                 ref={(textInput) => this._password = textInput }
                 style={styles.inputField}
-                value={this.state.text}
+                value={this.state.password}
                 onChangeText={(password) => this.setState({ password })}
                 onSubmitEditing={(event) => this.submit()}
                 editable={true}

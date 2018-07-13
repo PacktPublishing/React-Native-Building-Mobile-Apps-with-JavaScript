@@ -51,7 +51,7 @@ export default class Signup extends React.Component {
           <TextInput
               ref={(textInput) => this._user = textInput }
               style={styles.inputField}
-              value={this.state.text}
+              value={this.state.user}
               onChangeText={(user) => this.setState({user})}
               onSubmitEditing={(event) => this._password.focus()}
               editable={true}
@@ -62,7 +62,7 @@ export default class Signup extends React.Component {
             <TextInput
                 ref={(textInput) => this._password = textInput }
                 style={styles.inputField}
-                value={this.state.text}
+                value={this.state.password}
                 onChangeText={(password) => this.setState({ password })}
                 onSubmitEditing={(event) => this.submit()}
                 editable={true}
